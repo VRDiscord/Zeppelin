@@ -27,8 +27,8 @@ import { onCounterEvent } from "./functions/onCounterEvent";
 import { setCounterValue } from "./functions/setCounterValue";
 import { ConfigSchema, CountersPluginType, TTrigger } from "./types";
 
-const MAX_COUNTERS = 5;
-const MAX_TRIGGERS_PER_COUNTER = 5;
+const MAX_COUNTERS = 15;
+const MAX_TRIGGERS_PER_COUNTER = 15;
 const DECAY_APPLY_INTERVAL = 5 * MINUTES;
 
 const defaultOptions: PluginOptions<CountersPluginType> = {
